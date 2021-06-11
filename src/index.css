@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.fullname-global-text {
+  font-size: 14px;
+}
+
+.ant-typography-copy {
+  margin: 0!important;
+}
+
+.ant-table-cell:before {
+  width: 0!important;
+}

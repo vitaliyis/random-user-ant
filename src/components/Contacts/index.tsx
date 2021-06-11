@@ -23,12 +23,18 @@ const Contacts: React.FC = () => {
     dispatch(getContacts())
   }, [])
 
+  const reload = () => {
+    dispatch(getContacts())
+  }
+
   return (
     <Layout className={styles.layout}>
       <Content>
         <HeaderContacts
           view={view}
           setView={setView}
+          reload={reload}
+          loading={loading}
         />
         {error && <Alert
           message="Error"

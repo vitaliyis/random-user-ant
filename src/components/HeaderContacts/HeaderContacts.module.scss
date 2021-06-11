@@ -1,3 +1,18 @@
 .headerWrapper {
   margin-bottom: 20px;
 }
+
+.titleButtonsWarpper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttonsWrapper {
+  align-items: center;
+  display: flex;
+}
+
+h1.title {
+  margin: 0;
+}
